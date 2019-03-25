@@ -4,7 +4,8 @@
     margin: auto;
     width: 70%;
     background-color: #ffffff3b;
-    
+    background-size: cover;
+    background-position: center center;
 }
 .titulo{
     
@@ -16,9 +17,10 @@
 body {
     background-image:  url("../img/cesped_natural.jpg") ; 
     background-repeat: no-repeat;
-    background-size: 120%;
+    background-position: center center;
+    background-size: cover;
+    /*background-size: 120%;*/
     background-attachment: fixed;
-    margin:0;
     margin-bottom: 2%;
   }
 
@@ -38,7 +40,7 @@ body {
 
 .maincontentindex {
     margin-left: 32%;
-    margin-top: 30px;
+    margin-top: 5%;
     color: white;
     display: flex;
     flex: 1 1 100%;
@@ -74,17 +76,17 @@ body {
 
 .soccer1{
     float: left;
-    margin: 10px;
+    margin: 2%;
 }
 
 .soccer2{
     float: left;
-    margin: 10px;
+    margin: 2%;
 }
 
 .soccer3{
     float: left;
-    margin: 10px;
+    margin: 2%;
 }
 /*
 .textcontent {
@@ -204,7 +206,7 @@ li a.active {
 }
 
 .october th{
-    /* text-align: left; */
+     text-align: left; 
     font-weight: bolder;
     font-size: 1.3em;
     text-decoration: underline;
